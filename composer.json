@@ -1,0 +1,21 @@
+{
+    "name": "star/apijson",
+    "description": "apijson for php",
+    "type": "ligrary",
+  "require": {
+    "php": ">=7.0"
+  },
+  "license": "MIT",
+    "authors": [
+        {
+            "name": "star",
+            "email": "star@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "apijson\\": "src/"
+        }
+    }   
+}
